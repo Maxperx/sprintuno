@@ -1,0 +1,92 @@
+main{
+    background-color: rgb(240, 240, 240);
+    max-width: 1200px;
+    padding: 10px;
+}
+
+.box1{
+    background-color: #404046;
+    padding: 20px;
+    margin: 1%;
+}
+.box2{
+    display: flex;
+    align-items: stretch;
+    background-color: #404046;
+    padding: 20px;
+    margin: 1%;
+}
+.box3{
+    background-color: #404046;
+    padding: 20px;
+    margin: 1%;
+}
+header{
+    background-color: rgb(207, 205, 186);
+    padding: 15px;
+}
+.menus{
+    display: flex;
+    background-color: beige;
+    padding: 15px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-right: 10px;
+    text-align: center;
+}
+nav{
+    justify-content: space-around;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+
+}
+.redes{
+    background-color:rgb(62, 114, 97)
+}
+section{
+    background-color: #f7f7f7;
+    padding: 15px;
+}
+.flex-container{
+    display:flex
+}
+.sections{
+    width: 100%;
+    background-color: rgb(131, 131, 89);
+    margin-left: 5px;
+}
+aside{
+    background-color: #ececec;
+    margin-left: 15px;
+    padding: 15px;
+}
+footer{
+    background-color: rgb(79, 116, 96);
+    padding: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .box2, .box1{
+        flex-direction: column;
+  }
+  aside {
+    margin-top:  15px;
+    margin-left: 0px;
+}
+}
+@media only screen and (max-width: 400px) {
+     .flex-container, .logo, .menus{
+        flex-direction: column;
+  }
+ .redes{
+    margin-top: 5px;
+ }
+ .sections{
+    margin: 2px;
+ }
+}
